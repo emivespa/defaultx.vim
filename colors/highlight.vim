@@ -1,6 +1,6 @@
 " $VIMSRC/src/highlight.c defaults made explicit, minus gui stuff
 "
-" See defaultxx.vim for modified version.
+" See highlightx.vim for modified version.
 
 hi ErrorMsg term=standout ctermbg=1 ctermfg=15
 hi IncSearch term=reverse cterm=reverse
