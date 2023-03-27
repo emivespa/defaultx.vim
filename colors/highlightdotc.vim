@@ -2,14 +2,14 @@
 "
 " See defaultxx.vim for modified version.
 
-hi ErrorMsg term=standout ctermbg=1 ctermfg=15 
-hi IncSearch term=reverse cterm=reverse 
-hi ModeMsg term=bold cterm=bold 
-hi NonText term=bold ctermfg=4 
-hi StatusLine term=reverse,bold cterm=reverse,bold 
-hi StatusLineNC term=reverse cterm=reverse 
-hi default link EndOfBuffer NonText 
-hi VertSplit term=reverse cterm=reverse 
+hi ErrorMsg term=standout ctermbg=1 ctermfg=15
+hi IncSearch term=reverse cterm=reverse
+hi ModeMsg term=bold cterm=bold
+hi NonText term=bold ctermfg=4
+hi StatusLine term=reverse,bold cterm=reverse,bold
+hi StatusLineNC term=reverse cterm=reverse
+hi default link EndOfBuffer NonText
+hi VertSplit term=reverse cterm=reverse
 if has('xterm_clipboard') " #ifdef FEAT_CLIPBOARD FIXME.
 	hi VisualNOS term=underline,bold cterm=underline,bold
 endif
@@ -133,32 +133,32 @@ endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " $RUNTIME/syntax/syncolor.vim
-" 
+"
 " Doing the equivalent of syntax reset.
 
 if &background == "dark"
-	hi Comment term=bold cterm=NONE ctermfg=6 ctermbg=NONE 
-	hi Constant term=underline cterm=NONE ctermfg=5 ctermbg=NONE 
-	hi Special term=bold cterm=NONE ctermfg=1 ctermbg=NONE 
-	hi Identifier term=underline cterm=bold ctermfg=6 ctermbg=NONE 
-	hi Statement term=bold cterm=NONE ctermfg=3 ctermbg=NONE 
-	hi PreProc term=underline cterm=NONE ctermfg=4 ctermbg=NONE 
-	hi Type term=underline cterm=NONE ctermfg=2 ctermbg=NONE 
-	hi Underlined term=underline cterm=underline ctermfg=4 
-	hi Ignore term=NONE cterm=NONE ctermfg=0 ctermbg=NONE 
+	hi Comment term=bold cterm=NONE ctermfg=6 ctermbg=NONE
+	hi Constant term=underline cterm=NONE ctermfg=5 ctermbg=NONE
+	hi Special term=bold cterm=NONE ctermfg=1 ctermbg=NONE
+	hi Identifier term=underline cterm=bold ctermfg=6 ctermbg=NONE
+	hi Statement term=bold cterm=NONE ctermfg=3 ctermbg=NONE
+	hi PreProc term=underline cterm=NONE ctermfg=4 ctermbg=NONE
+	hi Type term=underline cterm=NONE ctermfg=2 ctermbg=NONE
+	hi Underlined term=underline cterm=underline ctermfg=4
+	hi Ignore term=NONE cterm=NONE ctermfg=0 ctermbg=NONE
 else
-	hi Comment term=bold cterm=NONE ctermfg=4 ctermbg=NONE 
-	hi Constant term=underline cterm=NONE ctermfg=1 ctermbg=NONE 
-	hi Special term=bold cterm=NONE ctermfg=5 ctermbg=NONE 
-	hi Identifier term=underline cterm=NONE ctermfg=6 ctermbg=NONE 
-	hi Statement term=bold cterm=NONE ctermfg=3 ctermbg=NONE 
-	hi PreProc term=underline cterm=NONE ctermfg=5 ctermbg=NONE 
-	hi Type term=underline cterm=NONE ctermfg=2 ctermbg=NONE 
-	hi Underlined term=underline cterm=underline ctermfg=5 
-	hi Ignore term=NONE cterm=NONE ctermfg=15 ctermbg=NONE 
+	hi Comment term=bold cterm=NONE ctermfg=4 ctermbg=NONE
+	hi Constant term=underline cterm=NONE ctermfg=1 ctermbg=NONE
+	hi Special term=bold cterm=NONE ctermfg=5 ctermbg=NONE
+	hi Identifier term=underline cterm=NONE ctermfg=6 ctermbg=NONE
+	hi Statement term=bold cterm=NONE ctermfg=3 ctermbg=NONE
+	hi PreProc term=underline cterm=NONE ctermfg=5 ctermbg=NONE
+	hi Type term=underline cterm=NONE ctermfg=2 ctermbg=NONE
+	hi Underlined term=underline cterm=underline ctermfg=5
+	hi Ignore term=NONE cterm=NONE ctermfg=15 ctermbg=NONE
 endif
-hi Error term=reverse cterm=NONE ctermfg=15 ctermbg=1 
-hi Todo term=standout cterm=NONE ctermfg=0 ctermbg=3 
+hi Error term=reverse cterm=NONE ctermfg=15 ctermbg=1
+hi Todo term=standout cterm=NONE ctermfg=0 ctermbg=3
 
 hi! link String Constant
 hi! link Character Constant
