@@ -9,7 +9,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "ron"
+let g:colors_name = "ronx"
 hi ShowMarksHL ctermfg=6 ctermbg=4 cterm=bold
 hi clear Visual
 hi Visual term=reverse cterm=reverse

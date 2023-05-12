@@ -15,7 +15,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "peachpuff"
+let g:colors_name = "peachpuffx"
 
 " hi Normal
 

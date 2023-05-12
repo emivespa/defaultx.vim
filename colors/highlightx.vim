@@ -3,6 +3,8 @@
 " 1, 4, 5 => 9, 12, 13
 " 10, 11, 14 => 2, 3, 6
 
+let g:colors_name = "highlightx"
+
 hi ErrorMsg term=standout ctermbg=9 ctermfg=15
 hi IncSearch term=reverse cterm=reverse
 hi ModeMsg term=bold cterm=bold

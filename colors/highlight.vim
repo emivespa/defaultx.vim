@@ -2,6 +2,8 @@
 "
 " See highlightx.vim for modified version.
 
+let g:colors_name = "highlight"
+
 hi ErrorMsg term=standout ctermbg=1 ctermfg=15
 hi IncSearch term=reverse cterm=reverse
 hi ModeMsg term=bold cterm=bold
